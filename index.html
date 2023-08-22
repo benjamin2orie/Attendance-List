@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./Css/style.css"/>
+    <script src="./Css/Script/index.js" defer></script>
 </head>
 <body>
-    <h3>coming for the new windows update</h3>
-    <h2>come to center on time</h2>
+    <div class="container_div">
+        <header class="header_bar">
+            <div class="logo">
+                🥨
+            </div>
+            <nav>
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>services</li>
+                    <li>faq</li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section class="section_menu">
+        <div class="section_div">
+            <h1>welcome to omege echara market</h1>
+            <form action="#" onsubmit="searchPrize()">
+               
+                <label for="items" class="items">select items</label>
+                <select name="price" id="select_item">
+                    <option value="orange" class="option_select">orange</option>
+                    <option value="rice" class="option_select">rice</option>
+                    <option value="palm oil" class="option_select">palm oil</option>
+                    <option value="garri" class="option_select">garri</option>
+                    <option value="suger cane" class="option_select">suger cane</option>
+                    <option value="plantain" class="option_select">plantain</option>
+                    <option value="fresh fish" class="option_select">fresh fish</option>
+                    <option value="chicken" class="option_select">chicken</option>
+                </select>
+                <div class="container_input">
+                    <label for="price">prizes</label>
+                    <input type="search" class="input_prize" placeholder="type to search prizes" role="please this field is required"/>
+                    <button class="btn_submit">search</button>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
